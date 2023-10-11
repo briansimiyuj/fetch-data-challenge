@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Form from './Form'
+import List from './List'
 
 function Script() {
 
@@ -39,6 +40,8 @@ function Script() {
     <div className="script">
 
       <Form reqType={reqType} setReqType={setReqType}/>
+
+      <List items={items}/>
       
     </div>
   );
