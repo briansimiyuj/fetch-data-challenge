@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
+import Form from './Form'
 
 function Script() {
 
@@ -36,6 +37,8 @@ function Script() {
 
   return (
     <div className="script">
+
+      <Form reqType={reqType} setReqType={setReqType}/>
       
     </div>
   );
