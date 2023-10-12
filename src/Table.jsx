@@ -1,3 +1,5 @@
+import Row from './Row';
+
 const Table = ({ items }) =>{
 
     return(
@@ -12,7 +14,7 @@ const Table = ({ items }) =>{
 
                         items.map(item =>(
 
-                            
+                            <Row key={item.id} item={item}/>
 
                         ))
 
