@@ -1,3 +1,5 @@
+import Cell from './Cell'
+
 const Row = ({ item }) =>{
 
     return(
