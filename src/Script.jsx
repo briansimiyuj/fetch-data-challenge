@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Form from './Form'
-import List from './List'
+import Table from './Table'
 
 function Script() {
 
@@ -41,7 +41,7 @@ function Script() {
 
       <Form reqType={reqType} setReqType={setReqType}/>
 
-      <List items={items}/>
+      <Table items={items}/>
       
     </div>
   );
